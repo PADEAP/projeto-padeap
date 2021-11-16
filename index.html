@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>Regionalização - Peruíbe</title>
+
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .gradient{
+             height: 100%;
+             width: 100%;
+             background: linear-gradient(to right, #001b4d, #1b1b1b);
+             animation-name: degrade;
+             background-size: 500% 100%;
+             animation-duration: 6s;
+             animation-iteration-count: infinite;
+             animation-direction: alternate;
+        }
+
+        @keyframes degrade{
+             0%{
+              background-position: 0%;
+        }
+              100%{
+              background-position: 100%;
+         }
+        }   
+
+        #header{
+            background-color: rgb(119, 205, 255);
+            height: 50px;
+        }
+
+        #titulo{
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #linha{
+            background-color: rgb(90, 90, 90);
+            height: 5px;
+        }
+
+        #pt1{
+            background-color: #F0FFFF;
+            height: 100%;
+        }
+
+        #pt2{
+            background-color:#6ee2bb;
+            height: 100%;
+        }
+
+        #pt3{
+            background-color: rgb(228, 128, 111);
+            height: 100%;
+        }
+
+        #pt4{
+            background-color: rgb(119, 205, 255);
+            height: 100%;
+        }
+
+        #regioes{
+            width: 120px;
+            display: block;
+            font-weight: bold;
+            border: 1px solid #4F4F4F;
+            border-radius:100px;
+            padding: 10px;
+            font-size: 15px;
+            background-color:#4F4F4F;
+            color: white;
+            text-decoration: none;
+        }
+
+        #regioes:hover{
+            background-color: #F0FFFF;
+            color: black;
+            border: 1px solid #F0FFFF;
+            transition: .5s ease;
+        }
+        
+        .minit{
+            color: black;
+            font-size: 30px;
+            font-family: Marker Felt, fantasy;
+        }
+        
+        p{
+            font-size: 17px;
+            color: black;
+        }
+
+        li{
+            font-size: 15px;
+            color: black;
+        }
+
+        @media (max-width: 576px){
+
+        }
+
+        @media (min-width: 576px) and (max-width: 768px){
+
+        }
+
+        @media (min-width: 768px) and (max-width: 992px){
+
+        }
+
+        @media (min-width: 992px) and (max-width: 1200px){
+            h4{
+                margin-left: 10px;
+            }
+
+            h5{
+                margin-left: 15px;
+            }
+        }
+
+        @media (min-width: 1200px) and (max-width: 1400px){
+            h4{
+                margin-left: 10px;
+            }
+
+           
+        }
+
+        @media (min-width: 1400px){
+            h4{
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+<body class="gradient">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="header">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 offset-1 offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2 offset-xxl-0" id="titulo">P.A.D.E.A.P.</div>
+            </div>
+            <div class="col-12" id="linha"></div>
+            <div class="col-10 offset-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-10 offset-sm-1 offset-md-2 offset-lg-2 offset-xl-2 offset-xxl-2 " id="pt1">
+                <br><span class="minit offset-2 offset-sm-3 offset-md-1 offset-lg-1 offset-xl-1 offset-xxl-1">O que é o P.A.D.E.A.P.?</span><br><br>
+                <p>O PADEAP, Projeto de Automatização e Desenvolvimento Econômico e
+                    Ambiental em Peruíbe, é um projeto que busca uma forma de transformar 
+                    uma cidade, em uma cidade inteligente, tornando-a sustentável, em 
+                    quesitos de energia, meio ambiente, transporte, saúde, educação, entre 
+                    outros, por meio da tecnologia. Podendo ser usado meios como sensores, 
+                    programas e sites para ajudar nesse processo. </p>
+            </div>
+            <div class="col-10 offset-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-10 offset-sm-1 offset-md-2 offset-lg-2 offset-xl-2 offset-xxl-2 " id="pt2">
+                <br>
+                <span class="minit offset-1 offset-sm-2 offset-md-1 offset-lg-1 offset-xl-1 offset-xxl-1">Regionalização P.A.D.E.A.P.</span><br><br>
+                 <p>Para fazer a regionalização, usamos o critério de urbanização, ou seja,
+                     caracterizamos pela porcentagem residencial comparada com a comercial,
+                      e, se é uma área mais rural ou urbana. Após isso, denominamos as seguintes áreas:</p>
+                <center>
+                <p><h3>Rural - Pré-rural - Pré-central - Central - Residencial</h3></p> <br>
+                 <div><a href="regioes.html" id="regioes" target="_blank">Ver regiões</a></div> <br>
+                </center>
+            </div>
+            <div class="col-10 offset-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-10 offset-sm-1 offset-md-2 offset-lg-2 offset-xl-2 offset-xxl-2 " id="pt3">
+                <br><span class="minit offset-2 offset-sm-3 offset-md-1 offset-lg-1 offset-xl-1 offset-xxl-1">Problemas na cidade</span><br><br>
+                    <h4>1- Poluição</h4> 
+                    <p>
+                    A poluição na cidade é causada por diversos motivos, poluição por automóveis,
+                     descarte de lixo, falta de reciclagem, entre outros motivos. </p>
+                    <h4>2- Transporte</h4>
+                    <p>Os problemas com o transporte não estão ligados a engarrafamento,
+                     por conta de não se tratar de uma cidade tão grande. Alguns dos
+                     problemas se ligam ao transporte público (como os ônibus), falta
+                     de sinalização dos pontos de ônibus. </p>
+                    <h4>3- Turismo</h4>
+                    <p>Boa parte da economia de Peruíbe é movida pelo turismo,
+                     por ser uma cidade litorânea com áreas verdes e boas praias.
+                     Apesar de receber muitos turistas, a cidade não é bem preparada 
+                     para isso, com o aumento da poluição nas praias e ruas. </p>
+                    <h4>4- Comércio</h4>
+                    <p>Os comércios não são tão bem-sinalizados, além disponibilidade
+                     dos produtos. </p> <br>
+            </div>
+            <div class="col-10 offset-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-10 offset-sm-1 offset-md-2 offset-lg-2 offset-xl-2 offset-xxl-2 " id="pt4">
+                <br><span class="minit offset-4 offset-sm-4 offset-md-1 offset-lg-1 offset-xl-1 offset-xxl-1">Soluções</span><br><br>
+                    <p>A solução para esse problema seria o PADEAP. Os munícipes de Peruíbe
+                         fariam um cadastro com muitas informações detalhadas, como os dados 
+                         do SUS (Sistema Único de Saúde), o CPF, o RG, dados da moradia e uma 
+                         conta bancária. No projeto PADEAP, existira dois tipos de conta, uma 
+                         para maiores de idade e outra para menores. </p>
+                    
+                    <h4>Registros:</h4>
+                    <ul>
+                        <li><b>Para as pessoas maiores de idade</b>, seriam necessários o RG, o CPF, 
+                            certidão de nascimento, uma foto 3x4, confirmação de moradia, informações 
+                            do SUS, além de possuir uma conta em um banco, para coisas como pagamento de planos. </li>
+                        <li><b>Para as pessoas menores de idade</b>, seria necessário o RG ou RA, o CPF (se possuísse), 
+                            certidão de nascimento, RG dos pais (ou responsáveis), uma foto 3x4, confirmação 
+                            de moradia, informações do SUS. </li>
+                    </ul> <br>
+
+                    <h4>Reciclagem</h4>
+                    <p>Na cidade, seriam estabelecidos mais postos de reciclagem, que receberiam os 
+                        lixos recicláveis que as pessoas produzissem. Para levar o lixo para os postos 
+                        de reciclagem, seria necessário que a pessoa separasse tudo em casa. Seriam estabelecidas porcentagens/metas de 
+                        reciclagem, que quando fossem batidas pelas pessoas cadastradas, ganhariam uma 
+                        quantia que seria depositado na conta da pessoa (ou na conta do responsável por ela). </p>
+
+                    <h4>Transporte Público</h4>
+                    <ul>
+                        <li>
+                            <h5>Ônibus:</h5> O munícipe cadastrado, poderia abrir o app do PADEAP em seu dispositivo 
+                            móvel, para acompanhar o movimento dos ônibus e patinetes disponíveis. Ao subir no ônibus, 
+                            ela teria duas opções: pagar na hora e passar o cartão para liberar a catraca, ou utilizar 
+                            o método de crédito do transporte, assim a pessoa pagaria tudo no final do mês. <br>
+                            Quando o munícipe passasse o cartão no ônibus, além da catraca ser liberada, seria atualizado 
+                            no app da PADEAP que havia mais uma pessoa no ônibus. Sendo assim, a pessoa passaria o cartão 
+                            quando subisse e quando descesse no ônibus (o app seria sempre atualizado), além de marcar o 
+                            ponto onde iria descer no app. Isso tudo evitaria a superlotação dos ônibus e a espera desnecessária nos pontos. 
+                        </li> <br>
+                        <li>
+                            <h5>Patinetes elétricos:</h5>
+                            O munícipe cadastrado poderia abrir o app do PADEAP em seu dispositivo móvel, para localizar 
+                            postos de distribuição de patinetes elétricos, que poderiam ser pagos na hora (com o dinheiro 
+                            da conta cadastrada no PADEAP) ou o valor seria registrado na conta para ser pago no final 
+                            do mês. Diferente dos ônibus, os patinetes elétricos não seriam rastreados, para as pessoas 
+                            terem sua privacidade. Eles só seriam rastreados em questão de mandado policial, como roubo ou desaparecimento. 
+                        </li>
+                    </ul>
+
+                    <h4>Transporte Privado</h4>
+                    <ul>
+                        <li>
+                            <h5>Estacionamento:</h5>
+                            Para estacionar o seu próprio veículo (carros, motos etc.) a pessoa passaria o cartão em 
+                            uma máquina que registraria o tempo que o carro ficou estacionado (cobrando um valor baixo 
+                            que seria relativo ao tempo do carro na vaga. Isso faria a pessoa pensar se realmente é 
+                            necessário sair com o carro naquele dia.). Toda vez que a pessoa passasse seu cartão marcando 
+                            aquela vaga, seria registrado que há um carro naquela vaga, marcando no app da PADEAP automaticamente. 
+                        </li> <br>
+                        <li>
+                            <h5>Rodízio de tráfego de carros:</h5>
+                            Seria estabelecido um rodízio esquematizado de carros que poderiam trafegar pela cidade em cada 
+                            dia da semana. (isso não valeria para os turistas que estivessem visitando a cidade de carro.)
+                        </li>
+                    </ul>
+
+                    <h4>Turismo</h4>
+                    <p>Os turistas que quisessem, poderiam solicitar uma conta com cartão (uma versão da conta para turistas, com algumas modificações). </p>
+
+                    <h4>Comércio</h4>
+                    <p>Os comércios poderiam se registrar no PADEAP para eles colocarem seus produtos e preço, além de formas de contado e endereço da loja(s). </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
